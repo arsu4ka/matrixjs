@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matrix Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Matrix Calculator</h1>
+	<form>
+		<label>Rows: <input type="number" id="rows"></label>
+		<label>Columns: <input type="number" id="cols"></label>
+		<button type="button" id="generate-btn">Generate Matrix</button>
+	</form>
+
+	<table id="matrix">
+		<!-- The generated matrix will be inserted here -->
+	</table>
+
+	<div>
+		<button id="det-btn" type="button">Calculate Determinant</button>
+		<button id="highest-btn" type="button">Find Highest Element</button>
+	</div>
+	<div>
+		<button id="save-file-btn" type="button">Save Matrix To File</button>
+	</div>
+
+	<div id="error" class="alert" style="display: none;"></div>
+    <script src="app.js"></script>
+</body>
+</html>
