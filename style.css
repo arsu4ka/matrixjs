@@ -11,6 +11,27 @@ h1 {
     margin: 20px 0;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+  
 form {
     display: flex;
     flex-wrap: wrap;
