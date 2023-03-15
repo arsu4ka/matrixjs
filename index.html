@@ -2,10 +2,18 @@
 <html>
 <head>
 	<title>Matrix Calculator</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<h1>Matrix Calculator</h1>
+	<div class="social-links">
+		<a href="https://github.com/arsu4ka/" target="_blank"><img src="images/github.png" alt="GitHub"></a>
+		<a href="https://www.instagram.com/arsu4ka/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+		<a href="https://t.me/psarkintan" target="_blank"><img src="images/telegram.png" alt="Telegram"></a>
+		<a href="https://www.upwork.com/freelancers/~018b288e01f1b14539" target="_blank"><img src="images/upwork.png" alt="Upwork"></a>
+	</div>
+
 	<form>
 		<label>Rows: <input type="number" id="rows"></label>
 		<label>Columns: <input type="number" id="cols"></label>
@@ -17,11 +25,11 @@
 	</table>
 
 	<div>
-		<button id="det-btn" type="button">Calculate Determinant</button>
-		<button id="highest-btn" type="button">Find Highest Element</button>
+		<button id="det-btn">Calculate Determinant</button>
+		<button id="highest-btn">Find Highest Element</button>
 	</div>
 	<div>
-		<button id="save-file-btn" type="button">Save Matrix To File</button>
+		<button id="save-file-btn">Save Matrix To File</button>
 	</div>
 
 	<div id="error" class="alert" style="display: none;"></div>
